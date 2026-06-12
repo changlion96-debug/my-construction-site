@@ -27,7 +27,17 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <body className="min-h-full flex flex-col">
+  {/* 新增這一段導航列 */}
+  <nav className="p-4 bg-gray-100 flex gap-4 border-b">
+    <a href="/">首頁</a>
+    <a href="/about">關於我們</a>
+    <a href="/projects">專案列表</a>
+  </nav>
+
+  {/* 這原本就在，維持不動 */}
+  {children}
+</body>
     </html>
   );
 }
