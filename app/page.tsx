@@ -13,12 +13,16 @@ export default function Home() {
   {/* 資訊卡片區 */}
   <section className="grid grid-cols-1 md:grid-cols-2 gap-6">
     <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-      <h2 className="font-semibold text-lg text-blue-600">最新都更案</h2>
-      <p className="mt-2 text-gray-700">大同區更新案 - 獎勵申請中</p>
+      <h2 className="font-semibold text-lg text-blue-600">關於盛都</h2>
+      <p className="mt-2 text-gray-700">盛事紀元</p>
     </div>
     <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
-      <h2 className="font-semibold text-lg text-blue-600">專案總投資</h2>
-      <p className="mt-2 text-gray-700">新台幣 900 億元</p>
+      <h2 className="font-semibold text-lg text-blue-600">盛都作品</h2>
+      <p className="mt-2 text-gray-700">盛世美作</p>
+    </div>
+    <div className="bg-white p-6 rounded-xl border border-gray-200 shadow-sm">
+      <h2 className="font-semibold text-lg text-blue-600">聯繫我們</h2>
+      <p className="mt-2 text-gray-700">專人與您聯繫</p>
     </div>
   </section>
 </main>
